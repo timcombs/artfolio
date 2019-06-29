@@ -1,17 +1,17 @@
 .card {
-  height: 10rem;
-  width: 10rem;
+  height: 9rem;
+  width: 15rem;
   border: 1px solid blue;
   margin: 0.25rem;
   border-radius: 5px;
   display: inline-block;
 }
 
-.video {
+.vid {
   background-color: #444147;
 }
 
-.audio {
+.aud {
   background-color: #615d66;
 }
 
@@ -19,10 +19,10 @@
   background-color: #7c7683;
 }
 
-.text {
+.txt {
   background-color: #aba3b4;
 }
 
-.errata {
+.img {
   background-color: #d8cee4;
 }
