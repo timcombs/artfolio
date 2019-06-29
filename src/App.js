@@ -1,30 +1,29 @@
 import React, { useState } from 'react';
-import './App.css';
 
-const Card = ({ card, idx }) => {
-  return (
-    <div className='card'>
-      {card.title}
-    </div>
-  );
-}
+import Card from './Card';
+import './App.css';
 
 function App() {
   const [cards, setCards] = useState([
     {
-      title: 'video',
+      title: 'one',
+      type: 'Video',
     },
     {
-      title: 'audio',
+      title: 'two',
+      type: 'Audio',
     },
     {
-      title: 'web',
+      title: 'three',
+      type: 'Web',
     },
     {
-      title: 'text',
+      title: 'four',
+      type: 'Text',
     },
     {
-      title: 'errata',
+      title: 'five',
+      type: 'Errata',
     },
   ])
 

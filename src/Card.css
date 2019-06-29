@@ -1,0 +1,28 @@
+.card {
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid blue;
+  margin: 0.25rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.video {
+  background-color: #444147;
+}
+
+.audio {
+  background-color: #615d66;
+}
+
+.web {
+  background-color: #7c7683;
+}
+
+.text {
+  background-color: #aba3b4;
+}
+
+.errata {
+  background-color: #d8cee4;
+}
