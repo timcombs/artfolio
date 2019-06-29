@@ -1,24 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
-function App() {
+const Card = ({ card, idx }) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='card'>
+      {card.title}
+    </div>
+  );
+}
+
+function App() {
+  const [cards, setCards] = useState([
+    {
+      title: 'video',
+    },
+    {
+      title: 'audio',
+    },
+    {
+      title: 'web',
+    },
+    {
+      title: 'text',
+    },
+    {
+      title: 'errata',
+    },
+  ])
+
+  return (
+    <div className='app'>
+      <div className='cards'>
+        {cards.map((card, idx) => (
+          <Card key={idx}
+            index={idx}
+            card={card}
+          />
+        ))}
+      </div>
     </div>
   );
 }
