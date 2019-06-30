@@ -10,21 +10,21 @@ function App() {
     {
       title: 'ω∀⦂⟟ ∫⨺⟠∤',
       type: 'Web',
-      image: 'img/digiWabiSabi.gif',
+      image: './img/digiWabiSabi.gif',
       alt: 'gif of digiWabiSabi web art',
       path: 'https://www.desolidstate.com/digiWabiSabi/digiWabiSabi.html'
     },
     {
       title: 'crack-rend',
       type: 'Vid',
-      image: 'img/thumbs/crack-rend_thumb.jpg',
+      image: './img/thumbs/crack-rend_thumb.jpg',
       alt: 'picture of crack-rend video',
       path: 'vid/crack-rend.ogg'
     },
     {
       title: '8 Bit Adventure',
       type: 'Web',
-      image: 'img/8bitAdv.gif',
+      image: './img/8bitAdv.gif',
       alt: 'gif of 8 Bit Adventure web art',
       path: 'https://www.desolidstate.com/adventureDragons/advDragons.html'
     },
@@ -36,7 +36,7 @@ function App() {
     {
       title: '8 Bit Invaders',
       type: 'Web',
-      image: 'img/8bitInv.gif',
+      image: './img/8bitInv.gif',
       alt: 'gif of 8 Bit Invaders web art',
       path: 'https://www.desolidstate.com/adventureDragons/spInvaders.html'
     },
@@ -48,9 +48,9 @@ function App() {
     {
       title: 'Snow Gather',
       type: 'Img',
-      image: 'img/snowGather.gif',
+      image: './img/snowGather.gif',
       alt: 'gif titled Snow Gather',
-      path: 'img/snowGather.gif'
+      path: './img/snowGather.gif'
     },
     {
       title: 'crowmanteau',
@@ -88,9 +88,29 @@ function App() {
       text: "maybe it's only about well-crafted documentation"
     },
     {
-      title: 'four',
+      title: 'post-',
       type: 'Txt',
-      text: ''
+      text: "the <em>post-</em> already happened and we're just trying to fulfill our <em>baroque</em> destinies"
+    },
+    {
+      title: 'emergence contexts',
+      type: 'Txt',
+      text: 'rather, utopias died deaths with the avant garde - we are organizers of emergence contexts'
+    },
+    {
+      title: 'meta closet',
+      type: 'Txt',
+      text: 'the meta closet. small space small work. ephemerals. skins. installs.'
+    },
+    {
+      title: 'technological present',
+      type: 'Txt',
+      text: 'part of understanding the ethical implications of a technological present is to fully explore the technological and metaphoric limitations of various technological media.'
+    },
+    {
+      title: 'extended glitch',
+      type: 'Txt',
+      text: 'an extended glitch feels like despondency'
     },
     {
       title: 'one',
