@@ -1,10 +1,17 @@
 .card {
   height: 9rem;
   width: 15rem;
+  font-family: bptypewrite-damaged, sans-serif, monospace;
   border: 1px solid blue;
-  margin: 0.25rem;
+  margin: 0.45rem;
   border-radius: 5px;
+  box-shadow: 4px 4px 3px 2px rgba(0, 0, 255, 0.2);
   display: inline-block;
+  overflow: scroll;
+}
+
+h3 {
+  margin: 0.75rem 0 1.1rem 0;
 }
 
 .vid {
@@ -25,4 +32,10 @@
 
 .img {
   background-color: #d8cee4;
+}
+
+.text {
+  text-align: left;
+  font-size: 1rem;
+  margin: auto 0.45rem;
 }

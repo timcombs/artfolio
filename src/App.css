@@ -1,4 +1,42 @@
+@font-face {
+  font-family: 'bptypewrite-regular';
+  src:  local('bptypewrite-regular'),
+        url('./fonts/bptypewrite.regular.otf');
+}
+
+@font-face {
+  font-family: 'bptypewrite-damaged';
+  src:  local('bptypewrite-damaged'),
+        url('./fonts/bptypewrite.damaged.otf');
+}
+
+@font-face {
+  font-family: 'bptypewrite-damaged-italic';
+  src:  local('bptypewrite-damaged-italic'),
+        url('./fonts/bptypewrite.damaged-italic.otf');
+}
+
+@font-face {
+  font-family: 'bptypewrite-italic';
+  src:  local('bptypewrite-italic'),
+        url('./fonts/bptypewrite.italic.otf');
+}
+/* 
+@font-face {
+  font-family: '';
+  src:  local(''),
+        url('./fonts/.otf');
+}
+
+@font-face {
+  font-family: '';
+  src:  local(''),
+        url('./fonts/.otf');
+} */
+
+
+
 .app {
-  font-family: courier monospace;
+  font-family: Monaco, "Lucida Console", monospace;
   text-align: center;
 }
