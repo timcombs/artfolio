@@ -2,11 +2,17 @@
   height: 18.5rem;
   width: 16.5rem;
   font-family: bptypewrite-damaged, sans-serif, monospace;
-  margin: 0.45rem;
+  margin: 0.75rem;
   border-radius: 5px;
   box-shadow: 4px 4px 3px 2px rgba(0, 0, 255, 0.2);
   display: inline-block;
   overflow: scroll;
+}
+
+.text {
+  text-align: left;
+  font-size: 1rem;
+  margin: auto 0.65rem;
 }
 
 h3 {
@@ -15,11 +21,12 @@ h3 {
   padding-bottom: 1rem;
 }
 
-/* .web-link {
-} */
-
-.img-container {
-  height: 13.8rem;
+.card-type {
+  text-align: left;
+  color: rgb(211, 200, 223);
+  text-shadow: 1px 1px 7px rgb(148, 60, 231);
+  font-size: 0.85rem;
+  margin: 0.3rem 0 -0.4rem 0.65rem;
 }
 
 .card img {
@@ -46,10 +53,4 @@ h3 {
 
 .img {
   background-color: #d8cee4;
-}
-
-.text {
-  text-align: left;
-  font-size: 1rem;
-  margin: auto 0.65rem;
 }

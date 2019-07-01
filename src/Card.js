@@ -29,11 +29,9 @@ const Card = ({ card, index }) => {
       break;
     case 'Web':
       theJSX =
-        <div className='img-container'>
-          <a className='web-link' href={card.path}>
-            <img className='web' src={images[imgname]} alt={card.alt} />
-          </a>
-        </div>
+        <a className='web-link' href={card.path}>
+          <img className='web' src={images[imgname]} alt={card.alt} />
+        </a>
       break;
     case 'Img':
       theJSX = '';
@@ -44,7 +42,11 @@ const Card = ({ card, index }) => {
 
   return (
     <div className={`card ${card.type.toLowerCase()}`}>
-      <h3>{card.title}</h3>
+      <h3>
+        {card.title}
+        <div className='card-type'>{card.type}</div>
+      </h3>
+      
       {theJSX}
     </div>
   );
