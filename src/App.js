@@ -34,7 +34,7 @@ function App() {
     {
       title: 'cotton',
       type: 'Txt',
-      text: '`is <em>Cotton Clean</em> or <em>Dirty</em>?`',
+      text: 'is <em>Cotton Clean</em> or <em>Dirty</em>?',
     },
     {
       title: '8 Bit Invaders',
