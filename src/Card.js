@@ -3,8 +3,19 @@ import React from 'react';
 import './Card.css';
 import Txt from './Txt.js';
 
-const Card = ({ card, idx }) => {
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  console.log('in importAll', images);
+  return images;
+}
+
+const images = importAll(require.context('./img', false, /\.(png|jpe?g|svg|gif)$/));
+
+const Card = ({ card, index }) => {
   let theJSX;
+  let imgname = card.imgname;
+  console.log(images[imgname])
 
   switch (card.type) {
     case 'Vid':
@@ -18,8 +29,8 @@ const Card = ({ card, idx }) => {
       break;
     case 'Web':
       theJSX =
-        <a className="view" href={card.path}>
-          <img className='web' src={card.image} alt={card.alt} />
+        <a className='web-link' href={card.path}>
+          <img className='web' src={images[imgname]} alt={card.alt} />
         </a>;
       break;
     case 'Img':

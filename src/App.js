@@ -11,6 +11,7 @@ function App() {
       title: 'ω∀⦂⟟ ∫⨺⟠∤',
       type: 'Web',
       image: './img/digiWabiSabi.gif',
+      imgname: 'digiWabiSabi.gif',
       alt: 'gif of digiWabiSabi web art',
       path: 'https://www.desolidstate.com/digiWabiSabi/digiWabiSabi.html'
     },
@@ -18,6 +19,7 @@ function App() {
       title: 'crack-rend',
       type: 'Vid',
       image: './img/thumbs/crack-rend_thumb.jpg',
+      imgname: 'crack-rend_thumb.jpg',
       alt: 'picture of crack-rend video',
       path: 'vid/crack-rend.ogg'
     },
@@ -25,6 +27,7 @@ function App() {
       title: '8 Bit Adventure',
       type: 'Web',
       image: './img/8bitAdv.gif',
+      imgname: '8bitAdv.gif',
       alt: 'gif of 8 Bit Adventure web art',
       path: 'https://www.desolidstate.com/adventureDragons/advDragons.html'
     },
@@ -37,6 +40,7 @@ function App() {
       title: '8 Bit Invaders',
       type: 'Web',
       image: './img/8bitInv.gif',
+      imgname: '8bitInv.gif',
       alt: 'gif of 8 Bit Invaders web art',
       path: 'https://www.desolidstate.com/adventureDragons/spInvaders.html'
     },
@@ -49,6 +53,7 @@ function App() {
       title: 'Snow Gather',
       type: 'Img',
       image: './img/snowGather.gif',
+      imgname: 'snowGather.gif',
       alt: 'gif titled Snow Gather',
       path: './img/snowGather.gif'
     },
@@ -151,10 +156,10 @@ function App() {
     <div className='app'>
       <div className='cards'>
         {cards.map((card, idx) => (
-          <Card key={idx}
+          <Card key={`${idx}-${card.title}`}
             index={idx}
             card={card}
-          />
+          ></Card>
         ))}
       </div>
 
