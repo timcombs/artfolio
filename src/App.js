@@ -18,10 +18,10 @@ function App() {
     {
       title: 'crack-rend',
       type: 'Vid',
-      image: './img/thumbs/crack-rend_thumb.jpg',
+      image: './img/crack-rend_thumb.jpg',
       imgname: 'crack-rend_thumb.jpg',
       alt: 'picture of crack-rend video',
-      path: 'vid/crack-rend.ogg'
+      path: 'https://www.desolidstate.com/vid/crack-rend.mp4'
     },
     {
       title: '8 Bit Adventure',

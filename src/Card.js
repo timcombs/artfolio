@@ -6,7 +6,6 @@ import Txt from './Txt.js';
 function importAll(r) {
   let images = {};
   r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-  console.log('in importAll', images);
   return images;
 }
 
@@ -15,11 +14,13 @@ const images = importAll(require.context('./img', false, /\.(png|jpe?g|svg|gif)$
 const Card = ({ card, index }) => {
   let theJSX;
   let imgname = card.imgname;
-  console.log(images[imgname])
 
   switch (card.type) {
     case 'Vid':
-      theJSX = '';
+      theJSX =
+        <video className='vid-wrap' poster={images[imgname]}  preload='meta' controls width='auto'>
+          <source src='https://www.desolidstate.com/vid/crack-rend.mp4' type='video/mp4' />
+      </video>
       break;
     case 'Aud':
       theJSX = '';
