@@ -20,7 +20,7 @@ const Card = ({ card, index }) => {
       theJSX =
         <div className='vid-wrap'>
           <video className='video' poster={images[imgname]}  preload='metadata' controls width='auto'>
-            <source src='https://www.desolidstate.com/vid/crack-rend.mp4' type='video/mp4' />
+            <source src={card.path} type='video/mp4' />
           </video>
         </div>
       break;

@@ -132,11 +132,9 @@ function App() {
       path: ''
     },
     {
-      title: 'three',
-      type: 'Web',
-      image: '',
-      alt: '',
-      path: ''
+      title: 'four',
+      type: 'Txt',
+      text: ''
     },
     {
       title: 'four',
@@ -144,9 +142,94 @@ function App() {
       text: ''
     },
     {
+      title: 'four',
+      type: 'Txt',
+      text: ''
+    },
+    {
+      title: 'two',
+      type: 'Aud',
+      image: '',
+      alt: '',
+      path: ''
+    },
+    {
+      title: 'two',
+      type: 'Aud',
+      image: '',
+      alt: '',
+      path: ''
+    },
+    {
+      title: 'two',
+      type: 'Aud',
+      image: '',
+      alt: '',
+      path: ''
+    },
+    {
+      title: 'one',
+      type: 'Img',
+      image: '',
+      alt: '',
+      path: ''
+    },
+    {
+      title: 'one',
+      type: 'Img',
+      image: '',
+      alt: '',
+      path: ''
+    },
+    {
+      title: 'one',
+      type: 'Img',
+      image: '',
+      alt: '',
+      path: ''
+    },
+    {
+      title: 'three',
+      type: 'Web',
+      image: '',
+      alt: '',
+      path: ''
+    },
+    {
+      title: 'three',
+      type: 'Web',
+      image: '',
+      alt: '',
+      path: ''
+    },
+    {
+      title: 'three',
+      type: 'Web',
+      image: '',
+      alt: '',
+      path: ''
+    },
+    {
       title: 'five',
       type: 'Vid',
       image: '',
+      imgname: '',
+      alt: '',
+      path: ''
+    },
+    {
+      title: 'five',
+      type: 'Vid',
+      image: '',
+      imgname: '',
+      alt: '',
+      path: ''
+    },
+    {
+      title: 'five',
+      type: 'Vid',
+      image: '',
+      imgname: '',
       alt: '',
       path: ''
     },

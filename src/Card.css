@@ -23,8 +23,8 @@ h3 {
 
 .card-type {
   text-align: left;
-  color: rgb(211, 200, 223);
-  text-shadow: 1px 1px 7px rgb(148, 60, 231);
+  color: rgb(221, 210, 233);
+  text-shadow: 0px 0px 4px rgb(77, 26, 124);
   font-size: 0.85rem;
   margin: 0.3rem 0 -0.4rem 0.65rem;
 }
@@ -45,21 +45,21 @@ h3 {
 }
 
 .vid {
-  background-color: #444147;
-}
-
-.aud {
-  background-color: #615d66;
+  background-color: #363338;
 }
 
 .web {
-  background-color: #7c7683;
-}
-
-.txt {
-  background-color: #aba3b4;
+  background-color: #615d66;
 }
 
 .img {
-  background-color: #d8cee4;
+  background-color: #8d8596;
+}
+
+.aud {
+  background-color: #bfb6c9;
+}
+
+.txt {
+  background-color: #ded4eb;
 }
