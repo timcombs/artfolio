@@ -1,5 +1,5 @@
 .card {
-  height: 18.5rem;
+  height: 21.5rem;
   width: 16.5rem;
   font-family: bptypewrite-damaged, sans-serif, monospace;
   margin: 0.75rem;
@@ -31,7 +31,7 @@ h3 {
 
 .vid-wrap {
   position: relative;
-  bottom: -7%;
+  bottom: -13%;
 }
 
 .video {
@@ -40,8 +40,8 @@ h3 {
 
 .card img {
   width: 90%;
-  position: relative;
-  bottom: -65%;
+  /* position: relative;
+  bottom: -40%; */
 }
 
 .vid {

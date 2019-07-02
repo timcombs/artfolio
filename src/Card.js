@@ -33,7 +33,7 @@ const Card = ({ card, index }) => {
     case 'Web':
       theJSX =
         <a className='web-link' href={card.path}>
-          <img className='web' src={images[imgname]} alt={card.alt} />
+          <img src={images[imgname]} alt={card.alt} />
         </a>
       break;
     case 'Img':
