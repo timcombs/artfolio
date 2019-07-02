@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import Card from './Card';
+import Masthead from './Masthead';
 import StyleButtons from './StyleButtons';
 
 import './App.css';
@@ -252,6 +253,7 @@ function App() {
 
   return (
     <div className='app'>
+      <Masthead />
       <div className='cards'>
         {cards.map((card, idx) => (
           <Card key={`${idx}-${card.title}`}
