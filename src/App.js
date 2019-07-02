@@ -18,8 +18,8 @@ function App() {
     {
       title: 'crack-rend',
       type: 'Vid',
-      image: './img/crack-rend_thumb.jpg',
-      imgname: 'crack-rend_thumb.jpg',
+      image: './img/crack-rend.png',
+      imgname: 'crack-rend.png',
       alt: 'picture of crack-rend video',
       path: 'https://www.desolidstate.com/vid/crack-rend.mp4'
     },

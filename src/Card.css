@@ -30,9 +30,12 @@ h3 {
 }
 
 .vid-wrap {
-  width: 90%;
   position: relative;
-  bottom: -50%;
+  bottom: -7%;
+}
+
+.video {
+  width: 90%;
 }
 
 .card img {

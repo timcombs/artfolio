@@ -18,9 +18,11 @@ const Card = ({ card, index }) => {
   switch (card.type) {
     case 'Vid':
       theJSX =
-        <video className='vid-wrap' poster={images[imgname]}  preload='meta' controls width='auto'>
-          <source src='https://www.desolidstate.com/vid/crack-rend.mp4' type='video/mp4' />
-      </video>
+        <div className='vid-wrap'>
+          <video className='video' poster={images[imgname]}  preload='metadata' controls width='auto'>
+            <source src='https://www.desolidstate.com/vid/crack-rend.mp4' type='video/mp4' />
+          </video>
+        </div>
       break;
     case 'Aud':
       theJSX = '';
