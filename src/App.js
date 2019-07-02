@@ -68,6 +68,14 @@ function App() {
       text: '<p>a need for <em>spontaneity</em> - or perhaps <em>extemporaneity</em> - to match a self actualized <em>"flow"</em><br></br><br></br>- or <em>something</em><br></br><em>some</em> & <em>thing</em> are ripe vagaries</p>'
     },
     {
+      title: 'Marx Headmon',
+      type: 'Web',
+      image: '.img/marx-headmon-speaks.png',
+      imgname: 'marx-headmon-speaks.png',
+      alt: 'Marx Headmon Speaks',
+      path: 'https://www.desolidstate.com/marx_headmon_speaks/marx-headmon-speaks.html'
+    },
+    {
       title: 'transparency',
       type: 'Txt',
       text: 'a mirror held up to see the ghost inside'
@@ -121,6 +129,7 @@ function App() {
       title: 'one',
       type: 'Img',
       image: '',
+      imgname: '',
       alt: '',
       path: ''
     },
@@ -171,6 +180,7 @@ function App() {
       title: 'one',
       type: 'Img',
       image: '',
+      imgname: '',
       alt: '',
       path: ''
     },
@@ -178,6 +188,7 @@ function App() {
       title: 'one',
       type: 'Img',
       image: '',
+      imgname: '',
       alt: '',
       path: ''
     },
@@ -185,6 +196,7 @@ function App() {
       title: 'one',
       type: 'Img',
       image: '',
+      imgname: '',
       alt: '',
       path: ''
     },
@@ -192,6 +204,7 @@ function App() {
       title: 'three',
       type: 'Web',
       image: '',
+      imgname: '',
       alt: '',
       path: ''
     },
@@ -199,6 +212,7 @@ function App() {
       title: 'three',
       type: 'Web',
       image: '',
+      imgname: '',
       alt: '',
       path: ''
     },
@@ -206,6 +220,7 @@ function App() {
       title: 'three',
       type: 'Web',
       image: '',
+      imgname: '',
       alt: '',
       path: ''
     },
