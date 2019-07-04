@@ -1,0 +1,7 @@
+.filter-container {
+  display: flex;
+  width: 97.5%;
+  background-color: #fdfdfd;
+  margin: 0 auto;
+  padding: 1.3rem 0.45rem;
+}
